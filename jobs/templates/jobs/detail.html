@@ -192,7 +192,7 @@
                 <div class="col-lg-6 col-md-8 mx-auto">
                     <h1 class="fw-light">Job Detail</h1>
                     <p class="lead text-body-secondary">{{ job.summary }}</p>
-                    <img src="{% static 'nick.jpg' %}" height="300">
+                    <img src="{{ job.image.url }}" height="300">
                     <p>
                         <a href="{% url 'home' %}" class="btn btn-primary my-2">Back</a>
                     </p>

@@ -209,12 +209,14 @@
 
 
                     <div class="col">
-                        <div class="card shadow-sm">
-                            <img class="card-img-top" src="{{ job.image.url }}">
-                            <div class="card-body">
-                                <p class="card-text">{{ job.summary }}</p>
+                        <a href="{% url 'detail' job.id %}">
+                            <div class="card shadow-sm">
+                                <img class="card-img-top" src="{{ job.image.url }}">
+                                <div class="card-body">
+                                    <p class="card-text">{{ job.summary }}</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     {% endfor %}
                 </div>
