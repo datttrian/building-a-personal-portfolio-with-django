@@ -1,13 +1,11 @@
 {
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
-  },
   "python.formatting.provider": "none",
   "black-formatter.args": [
     "--line-length=79",
     "--skip-string-normalization"
   ],
-  "python.analysis.typeCheckingMode": "strict"
+  "python.analysis.typeCheckingMode": "strict",
+  "editor.defaultFormatter": "ms-python.black-formatter"
 }
