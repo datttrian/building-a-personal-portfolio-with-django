@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "donjayamanne.python-environment-manager",
+		"KevinRose.vsc-python-indent",
+		"ms-python.black-formatter",
+		"ms-python.pylint",
+		"ms-python.python",
+		"ms-python.flake8",
+		"ms-python.mypy-type-checker",
+		"ms-python.vscode-pylance",
+		"PKief.material-icon-theme",
+		"streetsidesoftware.code-spell-checker",
+		"VisualStudioExptTeam.intellicode-api-usage-examples",
+		"VisualStudioExptTeam.vscodeintellicode",
+		"wholroyd.jinja"
+    ]
+}
